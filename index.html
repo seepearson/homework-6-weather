@@ -11,16 +11,16 @@
     <!--Bulma-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    
+
     <!-- Script-->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
-      <script src="script.js"></script> 
- 
-   
-   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 
 
-    
+
+
+
+
     <title>Weather Website</title>
 </head>
 
@@ -41,28 +41,31 @@
 
         </div>
     </section>
-<!--Navbar-->
-<nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-        <a class="navbar-item" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSWMFGx05V3tFf3UDW4chz7VXrhhKP_F3Ol30PZmQrwu3EOpG2f">
-            <input class="input is-rounded" type="text" placeholder="Casa Grande">
-            <button class="button is-warning">Submit</button>
-</nav>
+    <!--Navbar-->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-search">
+            <a class="navbar-item" href="">
+
+                <input class="input is-rounded" type="text" placeholder="City,State">
+                <button class="button is-warning">Submit</button>
+    </nav>
 
     <!-- Menu -->
+
     <div class="container">
         <div class="columns">
             <div class="column">
                 <aside class="menu">
-
                     <p class="menu-label">
                         Frequent Searches
                     </p>
                     <ul class="menu-list">
-
                         <li><a>San Diego</a></li>
                         <li><a>New York</a></li>
                         <li><a>Dallas</a></li>
+                        <li><a>London</a></li>
+                        <li><a>France</a></li>
+                        <li><a>Shanghai</a></li>
                     </ul>
                 </aside>
             </div>
@@ -74,27 +77,27 @@
         <div class="five-day-forcast">
             <div class=container-forcast>
                 <div class="content">
-                    <p>
-                        <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
-                        <br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa
-                        fringilla
-                        egestas. Nullam condimentum luctus turpis.
-                    </p>
+                    Current Conditions
+                    <li>City Name</li>
+                    <li>Date</li>
+                    <li>Temperature</li>
+                    <li>Humidity</li>
+                    <li>Wind Speed</li>
+                    <li>UV Index</li>
+                
                 </div>
-
-                </span>
-                </a>
             </div>
-            </nav>
         </div>
     </div>
 
     </div>
 </body>
-<footer>I heard Humpty Dumpty had a great summer...
-    <br>
-    But he had a horrible fall!
+<footer>
+    
+        I heard Humpty Dumpty had a great summer...
+        <br>
+        But he had a horrible fall!
+ 
 </footer>
 
 </html>
