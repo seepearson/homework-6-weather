@@ -1,12 +1,12 @@
 var APIkey = "3cac1a7dde76b023ab18654db33900cb";
-var queryURL= "http://api.openweathermap.org/data/2.5/forecast?id=524901&apiid=" + APIkey;
+var queryURL= "http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=" + APIkey;
 
 $.ajax({
     url: queryURL,
     method: "GET"
   })
     .then(function (response) {
-      console.log(queryURL);
+    
       console.log(response);
       
       $(".date").text("Today: " + response.dt_txt);
